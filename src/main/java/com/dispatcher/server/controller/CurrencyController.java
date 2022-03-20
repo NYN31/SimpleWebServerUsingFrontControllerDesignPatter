@@ -1,4 +1,4 @@
-package com.dispatcher.server;
+package com.dispatcher.server.controller;
 
 import java.io.PrintWriter;
 

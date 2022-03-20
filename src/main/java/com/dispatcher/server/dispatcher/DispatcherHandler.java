@@ -1,4 +1,7 @@
-package com.dispatcher.server;
+package com.dispatcher.server.dispatcher;
+
+import com.dispatcher.server.controller.CurrencyController;
+import com.dispatcher.server.controller.HomeController;
 
 import java.io.PrintWriter;
 

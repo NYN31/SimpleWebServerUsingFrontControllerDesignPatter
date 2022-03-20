@@ -1,5 +1,6 @@
-package com.dispatcher.server;
+package com.dispatcher.server.controller;
 
+import com.dispatcher.server.modal.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

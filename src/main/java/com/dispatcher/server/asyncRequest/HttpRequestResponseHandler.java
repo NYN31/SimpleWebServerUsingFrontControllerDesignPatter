@@ -1,4 +1,6 @@
-package com.dispatcher.server;
+package com.dispatcher.server.asyncRequest;
+
+import com.dispatcher.server.dispatcher.DispatcherHandler;
 
 import java.io.BufferedReader;
 import java.io.IOException;

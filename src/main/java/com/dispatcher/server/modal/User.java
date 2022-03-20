@@ -1,4 +1,4 @@
-package com.dispatcher.server;
+package com.dispatcher.server.modal;
 
 public class User {
     private String firstName;
