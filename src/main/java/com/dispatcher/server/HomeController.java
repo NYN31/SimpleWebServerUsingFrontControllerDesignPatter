@@ -40,8 +40,8 @@ public class HomeController {
     }
 
     public User getUser(User user) {
-        user.setFirstName("Rashedul");
-        user.setLastName("Islam");
+        user.setFirstName("Md Sajjad Hosen");
+        user.setLastName("Noyon");
         return user;
     }
 
