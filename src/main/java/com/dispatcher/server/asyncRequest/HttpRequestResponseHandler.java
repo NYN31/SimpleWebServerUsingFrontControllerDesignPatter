@@ -23,6 +23,7 @@ public class HttpRequestResponseHandler implements Runnable{
     }
 
     private void handleRequest() {
+        System.out.println(Thread.currentThread().getName());
         try(
                 BufferedReader request = new BufferedReader(new InputStreamReader(client.getInputStream()));
                 PrintWriter response = new PrintWriter(client.getOutputStream(), true)
@@ -32,7 +33,7 @@ public class HttpRequestResponseHandler implements Runnable{
             String path = "";
             String type = "";
             while (!line.isEmpty()) {
-                System.out.println("lineNo: " + lineNo + " ----> " + line);
+                //System.out.println("lineNo: " + lineNo + " ----> " + line);
                 if (lineNo == 1) {
                     path = extractPathFromLine(line);
                     type = (line.contains("currency") || line.contains("home")) ?

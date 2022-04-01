@@ -3,6 +3,7 @@
 1. A Simple Web Server
 2. Using Java, Socket, Thread, Front Controller Design Pattern
 3. Show responses as a text or Json array!
+4. Executor Framework used for using fixed thread
 
 # How to run the application
 Run the file named <b>SimpleWebServer.java</b>
